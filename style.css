@@ -36,7 +36,130 @@ body{
 .firsttext a:hover{
    background-color: black;
    color: white;
-  
+}
+.secondsection{
+    display: flex;
+    background-image: url(images/Frame\ 58.jpg);
+}
+.halfwidth{
+    width: 50%;
+    margin: 40px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 30px;
    
+}
+.halfwidth a{
+    text-decoration: none;
+    background-image: linear-gradient(red, purple);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.halfwidth a:hover{
+    cursor: pointer;
+    background-image: linear-gradient(purple, red);
+    font-weight: 700;
+}
+.halfwidth h1{
+    text-align: center;
+    font-size: 40px;
+    text-align: left;
+}
+.halfwidth p{
+    font-size: 20px;
+    text-align: left;
+    
+}
+.thidrsection{
+    display: flex;
+    background-color: tomato;
+    color: white;
+}
+#about{
+    padding-top: 20px;
+}
+#contact{
+    text-decoration: none;
+    background-image: radial-gradient(red, purple);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
 
+}
+#contact:hover{
+    background-image: radial-gradient(purple, red);
+    cursor: pointer;
+    font-weight: 700;
+
+}
+#pspace{
+    padding-bottom: 60px;
+}
+h1,p{
+    text-align: center;
+    
+}
+.cardcontainers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: 40px;
+}
+.items{
+    width: 300px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 15px black;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.images{
+    width: 100%;
+    border-radius: 15px;
+    
+
+}
+.itemsbody{
+    padding: 20px 10px;
+
+}
+.headline{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 10px;
+
+}
+.description{
+    text-align: left;
+    line-height: 1.3;
+
+}
+.optionalpart{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 60px;
+    box-shadow: 1px 1px 20px black;
+    padding: 40px 5px;
+}
+.text{
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+}
+footer{
+    padding: 40px 5px;
+    background-color: rgb(21, 21, 41);
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+span{
+    color: violet;
 }
